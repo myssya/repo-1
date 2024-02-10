@@ -22,16 +22,16 @@ int main()
     setlocale(LC_ALL, "Russian");
     
     int year;
-    cout << "Введите год: ";
+    cout << "Введите любой год: ";
     cin >> year;
 
     if (isLeapYear(year))
     {
-        cout << "Год является високосным" << endl;
+        cout << "Этот год является високосным" << endl;
     }
     else
     {
-        cout << "Год не является високосным" << endl;
+        cout << " 'Этот год не является високосным" << endl;
     }
 
     return 0;
